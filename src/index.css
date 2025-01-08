@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    position: relative;
+    display: block;
+}
+
+.nome_cabecalho{
+    font-weight: 700;
+}
+
+.nome_principal{
+    font-weight: 800;
+}
+
+.hero_sec{
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+.hero_div{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       max-width: 90rem;
+       width: 80%;
+}

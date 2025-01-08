@@ -7,11 +7,97 @@
     <title>Pedro Evangelista</title>
     <link rel="stylesheet" href="./src/index.css">
 </head>
-<body>
-    <div class="flex flex-row ">
+<body> 
+    <header class="flex h-24 justify-between w-full px-20 items-center shadow-xl fixed z-50 bg-[]">
+        <div class="flex flex-row items-center gap-x-2">
+            <div class="bg-slate-700 size-16 rounded-full "></div>
+            <span class="uppercase text-2xl nome_cabecalho">Pedro Evangelista</span>
+        </div>
 
+        <nav>
+            <li class="gap-x-9 text-2xl flex uppercase">
+                <ul>Home</ul>
+                <ul>Sobre</ul>
+                <ul>Projetos</ul>
+                <ul>Contato</ul>
+            </li>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero_sec">
+            <div class="hero_div text-center">
+                <h1 class=" flex flex-col items-center">
+                    <span class="text-3xl pb-4">
+                        Olá, me chamo
+                    </span>
 
-    </div>
-</div>    
+                    <span class="uppercase text-6xl nome_principal">
+                        Pedro Evangelista
+                    </span>
+                    <span class="text-3xl pt-4">
+                        Desenvolvedor Full-stack
+                    </p>
+                </h1>
+                <div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="px-32">
+                <h2 class="text-center text-3xl uppercase">Sobre mim</h2>
+
+                <div class="flex flex-row px-10">
+                    <div class="w-1/2 text-left">
+                        <h3 class="text-3xl">Um pouco de mim</h3>
+                    </div>
+                    <div class="w-1/2">
+                        <h3 class="text-3xl">Minhas tecnologias</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="px-32">
+                <h2 class="text-center text-3xl uppercase">Projetos</h2>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <div class="px-32">
+                <h2 class="flex flex-col text-center">
+                    <span class="text-3xl uppercase">Contato</span>
+                    <span class="text-2xl">Sinta-se a vontade de me contactar com o formulário abaixo e eu irei te responder assim que possível</span>
+                </h2>
+
+                <form >
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black mt-7 text-white">
+        <div class="flex flex-col px-20">
+            <div class="flex flex-row py-24 justify-between">
+                <div class="flex flex-col">
+                    <div class="my-4">
+                        <h2 class="uppercase text-4xl">Pedro Evangelista</h2>
+                    </div>
+                    <div>
+                        <p class="text-2xl">Um desenvolvedor Full-stack</p>
+                    </div>
+                </div>
+                <div class="uppercase text-4xl">Social</div>
+            </div>
+            <div class="w-full border-t border-white text-center text-lg my-8 pt-4">
+                © Copyright 2025. Feito por <a class="underline underline-offset-2" href="https://github.com/TheWayXD">Pedro Evangelista</a>
+            </div>
+        </div>    
+    </footer>
 </body>
 </html>
