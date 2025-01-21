@@ -7,8 +7,8 @@
     <title>Pedro Evangelista</title>
     <link rel="stylesheet" href="./src/index.css">
 </head>
-<body> 
-    <header class="flex h-24 justify-between w-full px-20 items-center shadow-xl fixed z-50 bg-white/90">
+<body class=" text-white selection:bg-slate-900"> 
+    <header class="flex h-24 justify-between w-full px-20 items-center shadow-xl fixed z-50 bg-slate-600/80">
         <div class="flex flex-row items-center gap-x-2">
             <div class="bg-slate-700 size-16 rounded-full "></div>
             <span class="uppercase text-2xl nome_cabecalho">Pedro Evangelista</span>
@@ -23,31 +23,36 @@
             </li>
         </nav>
     </header>
-    
-    <main>
-        <section id="home" class="hero_sec">
-            <div class="hero_div text-center">
-                <h1 class=" flex flex-col items-center">
-                    <span class="text-3xl pb-4">
-                        Olá, me chamo
-                    </span>
-
-                    <span class="uppercase text-6xl nome_principal">
-                        Pedro Evangelista
-                    </span>
-                    <span class="text-3xl pt-4">
-                        Desenvolvedor Full-stack
-                    </p>
+    <main class=" bg-slate-400 overflow-hidden"> 
+        <div class="bg-animation">
+            <div id='stars'></div>
+            <div id='stars3'></div>
+            <div id='stars4'></div>
+            <div id='stars2'></div>
+            
+            <section id="home" class="hero_sec">
+                <div class="hero_div text-center">
+                    <h1 class=" flex flex-col items-center">
+                        <span class="text-3xl pb-4">
+                            Olá, me chamo
+                        </span>
+                        
+                        <span class="uppercase text-6xl nome_principal">
+                            Pedro Evangelista
+                        </span>
+                        <span class="text-3xl pt-4">
+                            Desenvolvedor Full-stack
+                        </p>
                 </h1>
                 <div>
                 </div>
             </div>
         </section>
-
+        
         <section id="sobre">
             <div class="px-32">
                 <h2 class="text-center text-3xl uppercase">Sobre mim</h2>
-
+                
                 <div class="flex flex-row px-10">
                     <div class="w-1/2 text-left">
                         <h3 class="text-3xl">Um pouco de mim</h3>
@@ -59,29 +64,29 @@
                 </div>
             </div>
         </section>
-
+        
         <section id="projetos">
             <div class="px-32">
                 <h2 class="text-center text-3xl uppercase">Projetos</h2>
             </div>
         </section>
         
-        <section id="contato">
+        <section id="contato" class="mb-7">
             <div class="px-32">
                 <h2 class="flex flex-col text-center">
                     <span class="text-3xl uppercase">Contato</span>
                     <span class="text-2xl">Sinta-se a vontade de me contactar com o formulário abaixo e eu irei te responder assim que possível</span>
                 </h2>
-
+                
                 <form >
-
+                    
                 </form>
             </div>
         </section>
-
+    </div>
     </main>
 
-    <footer class="bg-black mt-7 text-white">
+    <footer class="bg-black ">
         <div class="flex flex-col px-20">
             <div class="flex flex-row py-24 justify-between">
                 <div class="flex flex-col">
