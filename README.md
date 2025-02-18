@@ -13,4 +13,4 @@
 
 📧 **Email:** [pedroevangelistabrasil@gmail.com](mailto:pedroevangelistabrasil@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/pedro-eva](https://linkedin.com/in/pedro-eva)  
-💼 **Portfólio:** [pedroevangelis.netlify.app](https://pedroevangelis.netlify.app)
+💼 **Portfólio:** [pedroevangelis.netlify.app](https://pedroevangelis.netlify.app) 🚧👷‍♂️ _Em construção_
