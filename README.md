@@ -5,8 +5,7 @@
 ## Sobre mim
 💡 &nbsp; Busco sempre desenvolver soluções otimizadas e eficientes.  
 ⚙️ &nbsp; Trabalho com **.NET, Vue.js, TailwindCSS e Docker**.  
-🚀 &nbsp; Estou sempre explorando novas formas de aprimorar a arquitetura e organização de código.  
-📚 &nbsp; No momento, estou documentando um **ERP legado** com **VitePress**.  
+🚀 &nbsp; Estou sempre explorando novas formas de aprimorar a arquitetura e organização de código.    
 
 
 ## Links
